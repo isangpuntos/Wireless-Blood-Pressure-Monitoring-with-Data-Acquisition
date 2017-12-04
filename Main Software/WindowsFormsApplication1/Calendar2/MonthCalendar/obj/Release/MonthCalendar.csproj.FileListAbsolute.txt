@@ -1,0 +1,7 @@
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\Calendar2\MonthCalendar\bin\Release\MonthCalendar.dll
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\Calendar2\MonthCalendar\bin\Release\MonthCalendar.pdb
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\Calendar2\MonthCalendar\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\Calendar2\MonthCalendar\obj\Release\MonthCalendar.Properties.Resources.resources
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\Calendar2\MonthCalendar\obj\Release\MonthCalendar.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\Calendar2\MonthCalendar\obj\Release\MonthCalendar.dll
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\Calendar2\MonthCalendar\obj\Release\MonthCalendar.pdb

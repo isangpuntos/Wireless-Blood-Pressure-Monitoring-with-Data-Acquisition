@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ZedGraph</name>
+    </assembly>
+    <members>
+        <member name="T:ZedGraph.ZedGraphControl">
+            <summary>
+            The ZedGraphControl class provides a UserControl interface to the
+            <see cref="N:ZedGraph"/> class library.  This allows ZedGraph to be installed
+            as a control in the Visual Studio toolbox.  You can use the control by simply
+            dragging it onto a form in the Visual Studio form editor.  All graph
+            attributes are accessible via the <see cref="P:ZedGraph.ZedGraphControl.GraphPane"/>
+            property.
+            </summary>
+            <author> John Champion revised by Jerry Vos </author>
+            <version> $Revision: 3.86 $ $Date: 2007-11-03 04:41:29 $ </version>
+        </member>
+        <member name="M:ZedGraph.ZedGraphControl.GetImage">
+            <summary>
+            Gets the graph pane's current image.
+            <seealso cref="T:System.Drawing.Bitmap"/>
+            </summary>
+            <exception cref="T:ZedGraph.ZedGraphException">
+            When the control has been disposed before this call.
+            </exception>
+        </member>
+        <member name="M:ZedGraph.ZedGraphControl.ZedGraphControl_MouseDown(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handle a MouseDown event in the <see cref="T:ZedGraph.ZedGraphControl"/>
+            </summary>
+            <param name="sender">A reference to the <see cref="T:ZedGraph.ZedGraphControl"/></param>
+            <param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"/> instance</param>
+        </member>
+        <member name="M:ZedGraph.ZedGraphControl.SetCursor">
+            <summary>
+            Set the cursor according to the current mouse location.
+            </summary>
+        </member>
+        <member name="M:ZedGraph.ZedGraphControl.SetCursor(System.Drawing.Point)">
+            <summary>
+            Set the cursor according to the current mouse location.
+            </summary>
+        </member>
+        <member name="M:ZedGraph.ZedGraphControl.ZedGraphControl_KeyUp(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Handle a KeyUp event
+            </summary>
+            <param name="sender">The <see cref="T:ZedGraph.ZedGraphControl"/> in which the KeyUp occurred.</param>
+            <param name="e">A <see cref="T:System.Windows.Forms.KeyEventArgs"/> instance.</param>
+        </member>
+        <member name="M:ZedGraph.ZedGraphControl.ZedGraphControl_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Handle the Key Events so ZedGraph can Escape out of a panning or zooming operation.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:ZedGraph.ZedGraphControl.ZedGraphControl_MouseUp(System.Object,System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Handle a MouseUp event in the <see cref="T:ZedGraph.ZedGraphControl"/>
+            </summary>
+            <param name="sender">A reference to the <see cref="T:ZedGraph.ZedGraphControl"/></param>
+            <param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"/> instance</param>
+        </member>
+        <member name="M:ZedGraph.ZedGraphControl.MakeValueLabel(ZedGraph.Axis,System.Double,System.Int32,System.Boolean)">
+            <summary>
+            Make a string label that corresponds to a user scale value.
+            </summary>
+            <param name="axis">The axis from which to obtain the scale value.  This determines
+            if it's a date value, linear, log, etc.</param>
+            <param name="val">The value to be made into a label</param>
+            <param name="iPt">The ordinal position of the value</param>
+            <param name="isOverrideOrdinal">true to override the ordinal settings of the axis,
+            and prefer the actual value inst

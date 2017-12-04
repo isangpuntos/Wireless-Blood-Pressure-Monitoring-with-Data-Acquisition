@@ -1,0 +1,26 @@
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\obj\Release\ResolveAssemblyReference.cache
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form2.resources
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form3.resources
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.pdb
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\bin\Release\MonthCalendar.dll
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\bin\Release\MonthCalendar.pdb
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form2.resources
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Form3.resources
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+C:\Documents and Settings\Admin\Desktop\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
+C:\Users\ADMIN\Desktop\Wireless Blood Pressure Monitoring with Data Acquisition\Main Software VS2010 3-10-2012\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+C:\Users\ADMIN\Desktop\Wireless Blood Pressure Monitoring with Data Acquisition\Main Software VS2010 3-10-2012\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+C:\Users\ADMIN\Desktop\Wireless Blood Pressure Monitoring with Data Acquisition\Main Software VS2010 3-10-2012\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb
+C:\Users\ADMIN\Desktop\Wireless Blood Pressure Monitoring with Data Acquisition\Main Software\WindowsFormsApplication1\bin\Release\WindowsFormsApplication1.exe.config
+C:\Users\ADMIN\Desktop\Wireless Blood Pressure Monitoring with Data Acquisition\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.exe
+C:\Users\ADMIN\Desktop\Wireless Blood Pressure Monitoring with Data Acquisition\Main Software\WindowsFormsApplication1\obj\Release\WindowsFormsApplication1.pdb

@@ -1,0 +1,14 @@
+H:\School Files\etc\scratch\CC\CalanderControl\bin\Release\CalanderControl.dll
+H:\School Files\etc\scratch\CC\CalanderControl\bin\Release\CalanderControl.pdb
+H:\School Files\etc\scratch\CC\CalanderControl\obj\Release\ResolveAssemblyReference.cache
+H:\School Files\etc\scratch\CC\CalanderControl\obj\Release\CalanderControl.MonthCalander.resources
+H:\School Files\etc\scratch\CC\CalanderControl\obj\Release\CalanderControl.csproj.GenerateResource.Cache
+H:\School Files\etc\scratch\CC\CalanderControl\obj\Release\CalanderControl.dll
+H:\School Files\etc\scratch\CC\CalanderControl\obj\Release\CalanderControl.pdb
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\CalanderControl\bin\Release\CalanderControl.dll
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\CalanderControl\bin\Release\CalanderControl.pdb
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\CalanderControl\obj\Release\ResolveAssemblyReference.cache
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\CalanderControl\obj\Release\CalanderControl.MonthCalander.resources
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\CalanderControl\obj\Release\CalanderControl.csproj.GenerateResource.Cache
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\CalanderControl\obj\Release\CalanderControl.dll
+F:\School Files\etc\BP software scratch\Main Software\WindowsFormsApplication1\CalanderControl\obj\Release\CalanderControl.pdb

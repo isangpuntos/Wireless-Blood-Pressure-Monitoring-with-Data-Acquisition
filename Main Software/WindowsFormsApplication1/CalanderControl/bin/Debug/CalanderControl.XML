@@ -1,0 +1,716 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalanderControl</name>
+    </assembly>
+    <members>
+        <member name="M:CalanderControl.Design.Layout.MonthCalanderAppearance.GetSchema">
+            <summary>
+            This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <see cref="T:System.Xml.Serialization.XmlSchemaProviderAttribute"/> to the class.
+            </summary>
+            <returns>
+            An <see cref="T:System.Xml.Schema.XmlSchema"/> that describes the XML representation of the object that is produced by the <see cref="M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)"/> method and consumed by the <see cref="M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)"/> method.
+            </returns>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.MonthCalanderAppearance.ReadXml(System.Xml.XmlReader)">
+            <summary>
+            Generates an object from its XML representation.
+            </summary>
+            <param name="reader">The <see cref="T:System.Xml.XmlReader"/> stream from which the object is deserialized. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.MonthCalanderAppearance.WriteXml(System.Xml.XmlWriter)">
+            <summary>
+            Converts an object into its XML representation.
+            </summary>
+            <param name="writer">The <see cref="T:System.Xml.XmlWriter"/> stream to which the object is serialized. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.Add(`0)">
+            <summary>
+            Adds an item to the end of the collection.
+            </summary>
+            <param name="item">The item to be added to the end of the Collection. The value can be null.</param>
+            <returns>The index at which the value has been added.</returns>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.AddRange(`0[])">
+            <summary>
+            
+            </summary>
+            <param name="items"></param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.Add(`0[])">
+            <summary>
+            Adds an item(s) to the end of the collection.
+            </summary>
+            <param name="items">The item to be added to the end of the Collection. The value can be null. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.Insert(System.Int32,`0)">
+            <summary>
+            Inserts an element into the Collection at the specified index.
+            </summary>
+            <param name="index">Index at which item has to be inserted.</param>
+            <param name="item">Item to be inserted</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.Remove(`0)">
+            <summary>
+            Removes item from the collection.
+            </summary>
+            <param name="item">Item to be removed.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.LastIndexOf(`0)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.LastIndexOf(`0,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+            <param name="startIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.LastIndexOf(`0,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+            <param name="startIndex"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.InsertRange(System.Int32,CalanderControl.Design.Generics.GenericCollection{`0})">
+            <summary>
+            
+            </summary>
+            <param name="index"></param>
+            <param name="items"></param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.Contains(`0)">
+            <summary>
+            
+            </summary>
+            <param name="item"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.IndexOf(`0)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.IndexOf(`0,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="startIndex"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.IndexOf(`0,System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="value"></param>
+            <param name="startIndex"></param>
+            <param name="count"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnClear">
+            <summary>
+            Performs additional custom processes when clearing the contents of the <see cref="T:System.Collections.CollectionBase"></see> instance.
+            </summary>
+            
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnClearComplete">
+            <summary>
+            Performs additional custom processes after clearing the contents of the <see cref="T:System.Collections.CollectionBase"></see> instance.
+            </summary>
+            
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnInsert(System.Int32,System.Object)">
+            <summary>
+            Performs additional custom processes before inserting a new element into the <see cref="T:System.Collections.CollectionBase"></see> instance.
+            </summary>
+            
+            <param name="value">The new value of the element at index.</param>
+            <param name="index">The zero-based index at which to insert value.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnInsertComplete(System.Int32,System.Object)">
+            <summary>
+            Performs additional custom processes after inserting a new element into the <see cref="T:System.Collections.CollectionBase"></see> instance.
+            </summary>
+            
+            <param name="value">The new value of the element at index.</param>
+            <param name="index">The zero-based index at which to insert value.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnRemove(System.Int32,System.Object)">
+            <summary>
+            Performs additional custom processes when removing an element from the <see cref="T:System.Collections.CollectionBase"></see> instance.
+            </summary>
+            
+            <param name="value">The value of the element to remove from index.</param>
+            <param name="index">The zero-based index at which value can be found.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnRemoveComplete(System.Int32,System.Object)">
+            <summary>
+            Performs additional custom processes after removing an element from the <see cref="T:System.Collections.CollectionBase"></see> instance.
+            </summary>
+            
+            <param name="value">The value of the element to remove from index.</param>
+            <param name="index">The zero-based index at which value can be found.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnValidate(System.Object)">
+            <summary>
+            Performs additional custom processes when validating a value.
+            </summary>
+            
+            <param name="value">The object to validate.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnSet(System.Int32,System.Object,System.Object)">
+            <summary>
+            Performs additional custom processes before setting a value in the <see cref="T:System.Collections.CollectionBase"></see> instance.
+            </summary>
+            
+            <param name="oldValue">The value to replace with newValue.</param>
+            <param name="newValue">The new value of the element at index.</param>
+            <param name="index">The zero-based index at which oldValue can be found.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnSetComplete(System.Int32,System.Object,System.Object)">
+            <summary>
+            Performs additional custom processes after setting a value in the <see cref="T:System.Collections.CollectionBase"></see> instance.
+            </summary>
+            
+            <param name="oldValue">The value to replace with newValue.</param>
+            <param name="newValue">The new value of the element at index.</param>
+            <param name="index">The zero-based index at which oldValue can be found.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.GenericCollection`1.OnDeserialization(System.Object)">
+            <summary>
+            Runs when the entire object graph has been deserialized.
+            </summary>
+            
+            <param name="sender">The object that initiated the callback. The functionality for this parameter is not currently implemented. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.CornerShape.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"></see> is equal to the current <see cref="T:System.Object"></see>.
+            </summary>
+            
+            <returns>
+            true if the specified <see cref="T:System.Object"></see> is equal to the current <see cref="T:System.Object"></see>; otherwise, false.
+            </returns>
+            
+            <param name="obj">The <see cref="T:System.Object"></see> to compare with the current <see cref="T:System.Object"></see>. </param><filterpriority>2</filterpriority>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.CornerShape.GetSchema">
+            <summary>
+            This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <see cref="T:System.Xml.Serialization.XmlSchemaProviderAttribute"/> to the class.
+            </summary>
+            <returns>
+            An <see cref="T:System.Xml.Schema.XmlSchema"/> that describes the XML representation of the object that is produced by the <see cref="M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)"/> method and consumed by the <see cref="M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)"/> method.
+            </returns>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.CornerShape.ReadXml(System.Xml.XmlReader)">
+            <summary>
+            Generates an object from its XML representation.
+            </summary>
+            <param name="reader">The <see cref="T:System.Xml.XmlReader"/> stream from which the object is deserialized. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.CornerShape.WriteXml(System.Xml.XmlWriter)">
+            <summary>
+            Converts an object into its XML representation.
+            </summary>
+            <param name="writer">The <see cref="T:System.Xml.XmlWriter"/> stream to which the object is serialized. </param>
+        </member>
+        <member name="F:CalanderControl.Design.Editors.RangeEditor.OpacityEditorUI.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.RangeEditor.OpacityEditorUI.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.RangeEditor.OpacityEditorUI.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Gets the editor style used by the <see cref="M:System.Drawing.Design.UITypeEditor.EditValue(System.IServiceProvider,System.Object)"></see> method.
+            </summary>
+            
+            <returns>
+            A <see cref="T:System.Drawing.Design.UITypeEditorEditStyle"></see> value that indicates the style of editor used by the <see cref="M:System.Drawing.Design.UITypeEditor.EditValue(System.IServiceProvider,System.Object)"></see> method. If the <see cref="T:System.Drawing.Design.UITypeEditor"></see> does not support this method, then <see cref="M:System.Drawing.Design.UITypeEditor.GetEditStyle"></see> will return <see cref="F:System.Drawing.Design.UITypeEditorEditStyle.None"></see>.
+            </returns>
+            
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"></see> that can be used to gain additional context information. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)">
+            <summary>
+            Edits the specified object's value using the editor style indicated by the <see cref="M:System.Drawing.Design.UITypeEditor.GetEditStyle"></see> method.
+            </summary>
+            
+            <returns>
+            The new value of the object. If the value of the object has not changed, this should return the same object it was passed.
+            </returns>
+            
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"></see> that can be used to gain additional context information. </param>
+            <param name="value">The object to edit. </param>
+            <param name="provider">An <see cref="T:System.IServiceProvider"></see> that this editor can use to obtain services. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.GetPaintValueSupported(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Indicates whether the specified context supports painting a representation of an object's value within the specified context.
+            </summary>
+            
+            <returns>
+            true if <see cref="M:System.Drawing.Design.UITypeEditor.PaintValue(System.Object,System.Drawing.Graphics,System.Drawing.Rectangle)"></see> is implemented; otherwise, false.
+            </returns>
+            
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"></see> that can be used to gain additional context information. </param>
+        </member>
+        <member name="F:CalanderControl.Design.Editors.GradientAngleEditor.GradientEditorUI.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.GradientEditorUI.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.Paint"></see> event.
+            </summary>
+            
+            <param name="e">A <see cref="T:System.Windows.Forms.PaintEventArgs"></see> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.GradientEditorUI.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseDown"></see> event.
+            </summary>
+            
+            <param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"></see> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.GradientEditorUI.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseMove"></see> event.
+            </summary>
+            
+            <param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"></see> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.GradientEditorUI.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>
+            Processes a command key.
+            </summary>
+            
+            <returns>
+            true if the character was processed by the control; otherwise, false.
+            </returns>
+            
+            <param name="keyData">One of the <see cref="T:System.Windows.Forms.Keys"></see> values that represents the key to process. </param>
+            <param name="msg">A <see cref="T:System.Windows.Forms.Message"></see>, passed by reference, that represents the window message to process. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.GradientEditorUI.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.GradientAngleEditor.GradientEditorUI.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:CalanderControl.Design.ColorPair">
+            <summary>
+            Represents two color pair with gradient angle.
+            </summary>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:CalanderControl.Design.ColorPair"/> class.
+            </summary>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.#ctor(System.Drawing.Color,System.Drawing.Color,System.Int32)">
+            <summary>
+            Initializes a new instance of the <see cref="T:CalanderControl.Design.ColorPair"/> class.
+            </summary>
+            <param name="backColor1">Start color.</param>
+            <param name="backColor2">End color</param>
+            <param name="gradient">Gradient of the brush.</param>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"></see> that represents the current <see cref="T:System.Object"></see>.
+            </summary>
+            
+            <returns>
+            A <see cref="T:System.String"></see> that represents the current <see cref="T:System.Object"></see>.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.GetHashCode">
+            <summary>
+            Serves as a hash function for a particular type. <see cref="M:System.Object.GetHashCode"></see> is suitable for use in hashing algorithms and data structures like a hash table.
+            </summary>
+            
+            <returns>
+            A hash code for the current <see cref="T:System.Object"></see>.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.Equals(System.Object)">
+            <summary>
+            Determines whether the specified <see cref="T:System.Object"></see> is equal to the current <see cref="T:System.Object"></see>.
+            </summary>
+            
+            <returns>
+            true if the specified <see cref="T:System.Object"></see> is equal to the current <see cref="T:System.Object"></see>; otherwise, false.
+            </returns>
+            
+            <param name="obj">The <see cref="T:System.Object"></see> to compare with the current <see cref="T:System.Object"></see>. </param><filterpriority>2</filterpriority>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.GetSchema">
+            <summary>
+            This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <see cref="T:System.Xml.Serialization.XmlSchemaProviderAttribute"/> to the class.
+            </summary>
+            <returns>
+            An <see cref="T:System.Xml.Schema.XmlSchema"/> that describes the XML representation of the object that is produced by the <see cref="M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)"/> method and consumed by the <see cref="M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)"/> method.
+            </returns>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.ReadXml(System.Xml.XmlReader)">
+            <summary>
+            Generates an object from its XML representation.
+            </summary>
+            <param name="reader">The <see cref="T:System.Xml.XmlReader"/> stream from which the object is deserialized. </param>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.WriteXml(System.Xml.XmlWriter)">
+            <summary>
+            Converts an object into its XML representation.
+            </summary>
+            <param name="writer">The <see cref="T:System.Xml.XmlWriter"/> stream to which the object is serialized. </param>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.Clone">
+            <summary>
+            Creates a new object that is a copy of the current instance.
+            </summary>
+            
+            <returns>
+            A new object that is a copy of this instance.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="P:CalanderControl.Design.ColorPair.BackColor1">
+            <summary>
+            Gets or sets Start color.
+            </summary>
+        </member>
+        <member name="P:CalanderControl.Design.ColorPair.BackColor2">
+            <summary>
+            Gets or sets End color.
+            </summary>
+        </member>
+        <member name="P:CalanderControl.Design.ColorPair.Gradient">
+            <summary>
+            Gets or sets Gradient.
+            </summary>
+        </member>
+        <member name="T:CalanderControl.Design.ColorPair.ColorPairEditor">
+            <summary>
+            UITypeEditor for <see cref="T:CalanderControl.Design.ColorPair"/> type.
+            </summary>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.ColorPairEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)">
+            <summary>
+            Edits the specified object's value using the editor style indicated by the <see cref="M:System.Drawing.Design.UITypeEditor.GetEditStyle"></see> method.
+            </summary>
+            
+            <returns>
+            The new value of the object. If the value of the object has not changed, this should return the same object it was passed.
+            </returns>
+            
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"></see> that can be used to gain additional context information. </param>
+            <param name="value">The object to edit. </param>
+            <param name="provider">An <see cref="T:System.IServiceProvider"></see> that this editor can use to obtain services. </param>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.ColorPairEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Gets the editor style used by the <see cref="M:System.Drawing.Design.UITypeEditor.EditValue(System.IServiceProvider,System.Object)"></see> method.
+            </summary>
+            
+            <returns>
+            A <see cref="T:System.Drawing.Design.UITypeEditorEditStyle"></see> value that indicates the style of editor used by the <see cref="M:System.Drawing.Design.UITypeEditor.EditValue(System.IServiceProvider,System.Object)"></see> method. If the <see cref="T:System.Drawing.Design.UITypeEditor"></see> does not support this method, then <see cref="M:System.Drawing.Design.UITypeEditor.GetEditStyle"></see> will return <see cref="F:System.Drawing.Design.UITypeEditorEditStyle.None"></see>.
+            </returns>
+            
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"></see> that can be used to gain additional context information. </param>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.ColorPairEditor.GetPaintValueSupported(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Indicates whether the specified context supports painting a representation of an object's value within the specified context.
+            </summary>
+            
+            <returns>
+            true if <see cref="M:System.Drawing.Design.UITypeEditor.PaintValue(System.Object,System.Drawing.Graphics,System.Drawing.Rectangle)"></see> is implemented; otherwise, false.
+            </returns>
+            
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"></see> that can be used to gain additional context information. </param>
+        </member>
+        <member name="M:CalanderControl.Design.ColorPair.ColorPairEditor.PaintValue(System.Drawing.Design.PaintValueEventArgs)">
+            <summary>
+            Paints a representation of the value of an object using the specified <see cref="T:System.Drawing.Design.PaintValueEventArgs"></see>.
+            </summary>
+            
+            <param name="e">A <see cref="T:System.Drawing.Design.PaintValueEventArgs"></see> that indicates what to paint and where to paint it. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.BorderAppearance.GetSchema">
+            <summary>
+            This method is reserved and should not be used. When implementing the IXmlSerializable interface, you should return null (Nothing in Visual Basic) from this method, and instead, if specifying a custom schema is required, apply the <see cref="T:System.Xml.Serialization.XmlSchemaProviderAttribute"/> to the class.
+            </summary>
+            <returns>
+            An <see cref="T:System.Xml.Schema.XmlSchema"/> that describes the XML representation of the object that is produced by the <see cref="M:System.Xml.Serialization.IXmlSerializable.WriteXml(System.Xml.XmlWriter)"/> method and consumed by the <see cref="M:System.Xml.Serialization.IXmlSerializable.ReadXml(System.Xml.XmlReader)"/> method.
+            </returns>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.BorderAppearance.ReadXml(System.Xml.XmlReader)">
+            <summary>
+            Generates an object from its XML representation.
+            </summary>
+            <param name="reader">The <see cref="T:System.Xml.XmlReader"/> stream from which the object is deserialized. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Layout.BorderAppearance.WriteXml(System.Xml.XmlWriter)">
+            <summary>
+            Converts an object into its XML representation.
+            </summary>
+            <param name="writer">The <see cref="T:System.Xml.XmlWriter"/> stream to which the object is serialized. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.OnSystemColorsChanged(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.SystemColorsChanged"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>
+            Processes a command key.
+            </summary>
+            <returns>
+            true if the character was processed by the control; otherwise, false.
+            </returns>
+            <param name="msg">A <see cref="T:System.Windows.Forms.Message"/>, passed by reference, that represents the window message to process. </param><param name="keyData">One of the <see cref="T:System.Windows.Forms.Keys"/> values that represents the key to process. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.OnKeyUp(System.Windows.Forms.KeyEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.KeyUp"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.Windows.Forms.KeyEventArgs"/> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.OnMouseLeave(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseLeave"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.OnMouseDown(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseDown"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.MouseMove"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.Windows.Forms.MouseEventArgs"/> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.OnPaint(System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.Paint"/> event.
+            </summary>
+            <param name="e">A <see cref="T:System.Windows.Forms.PaintEventArgs"/> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.OnGotFocus(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.GotFocus"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data. </param>
+        </member>
+        <member name="M:CalanderControl.MonthCalander.OnLostFocus(System.EventArgs)">
+            <summary>
+            Raises the <see cref="E:System.Windows.Forms.Control.LostFocus"/> event.
+            </summary>
+            <param name="e">An <see cref="T:System.EventArgs"/> that contains the event data. </param>
+        </member>
+        <member name="P:CalanderControl.MonthCalander.ShowFocusCues">
+            <summary>
+            Gets a value indicating whether the control should display focus rectangles.
+            </summary>
+            <returns>
+            true if the control should display focus rectangles; otherwise, false.
+            </returns>
+        </member>
+        <member name="P:CalanderControl.MonthCalander.ShowKeyboardCues">
+            <summary>
+            Gets a value indicating whether the user interface is in the appropriate state to show or hide keyboard accelerators.
+            </summary>
+            <returns>
+            true if the keyboard accelerators are visible; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.FontConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <summary>
+            Returns whether this converter can convert an object of the given type to the type of this converter, using the specified context.
+            </summary>
+            <returns>
+            true if this converter can perform the conversion; otherwise, false.
+            </returns>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that provides a format context. </param><param name="sourceType">A <see cref="T:System.Type"/> that represents the type you want to convert from. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.FontConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+            <summary>
+            Converts the given object to the type of this converter, using the specified context and culture information.
+            </summary>
+            <returns>
+            An <see cref="T:System.Object"/> that represents the converted value.
+            </returns>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that provides a format context. </param><param name="culture">The <see cref="T:System.Globalization.CultureInfo"/> to use as the current culture. </param><param name="value">The <see cref="T:System.Object"/> to convert. </param><exception cref="T:System.NotSupportedException">The conversion cannot be performed. </exception>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.FontConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Returns a collection of standard values for the data type this type converter is designed for when provided with a format context.
+            </summary>
+            <returns>
+            A <see cref="T:System.ComponentModel.TypeConverter.StandardValuesCollection"/> that holds a standard set of valid values, or null if the data type does not support a standard set of values.
+            </returns>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that provides a format context that can be used to extract additional information about the environment from which this converter is invoked. This parameter or properties of this parameter can be null. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.FontConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Returns whether the collection of standard values returned from <see cref="M:System.ComponentModel.TypeConverter.GetStandardValues"/> is an exclusive list of possible values, using the specified context.
+            </summary>
+            <returns>
+            true if the <see cref="T:System.ComponentModel.TypeConverter.StandardValuesCollection"/> returned from <see cref="M:System.ComponentModel.TypeConverter.GetStandardValues"/> is an exhaustive list of possible values; false if other values are possible.
+            </returns>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that provides a format context. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.FontConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Returns whether this object supports a standard set of values that can be picked from a list, using the specified context.
+            </summary>
+            <returns>
+            true if <see cref="M:System.ComponentModel.TypeConverter.GetStandardValues"/> should be called to find a common set of values the object supports; otherwise, false.
+            </returns>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that provides a format context. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Attributes.MinMaxAttribute.Equals(System.Object)">
+            <summary>
+            Returns a value that indicates whether this instance is equal to a specified object.
+            </summary>
+            
+            <returns>
+            true if obj equals the type and value of this instance; otherwise, false.
+            </returns>
+            
+            <param name="obj">An <see cref="T:System.Object"></see> to compare with this instance or null. </param><filterpriority>2</filterpriority>
+        </member>
+        <member name="M:CalanderControl.Design.Attributes.MinMaxAttribute.GetHashCode">
+            <summary>
+            Returns the hash code for this instance.
+            </summary>
+            
+            <returns>
+            A 32-bit signed integer hash code.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:CalanderControl.Design.Attributes.MinMaxAttribute.IsDefaultAttribute">
+            <summary>
+            When overridden in a derived class, indicates whether the value of this instance is the default value for the derived class.
+            </summary>
+            
+            <returns>
+            true if this instance is the default attribute for the class; otherwise, false.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:CalanderControl.Design.Attributes.MinMaxAttribute.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"></see> that represents the current <see cref="T:System.Object"></see>.
+            </summary>
+            
+            <returns>
+            A <see cref="T:System.String"></see> that represents the current <see cref="T:System.Object"></see>.
+            </returns>
+            <filterpriority>2</filterpriority>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.ReadOnlyConverter.PD.GetValue(System.Object)">
+            <summary>
+            When overridden in a derived class, gets the current value of the property on a component.
+            </summary>
+            <returns>
+            The value of a property for a given component.
+            </returns>
+            <param name="component">The component with the property for which to retrieve the value. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Generics.ReadOnlyConverter.PD.SetValue(System.Object,System.Object)">
+            <summary>
+            When overridden in a derived class, sets the value of the component to a different value.
+            </summary>
+            <param name="component">The component with the property value that is to be set. </param><param name="value">The new value. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.FontEditor.GetPaintValueSupported(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Indicates whether the specified context supports painting a representation of an object's value within the specified context.
+            </summary>
+            <returns>
+            true if <see cref="M:System.Drawing.Design.UITypeEditor.PaintValue(System.Object,System.Drawing.Graphics,System.Drawing.Rectangle)"/> is implemented; otherwise, false.
+            </returns>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that can be used to gain additional context information. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.FontEditor.PaintValue(System.Drawing.Design.PaintValueEventArgs)">
+            <summary>
+            Paints a representation of the value of an object using the specified <see cref="T:System.Drawing.Design.PaintValueEventArgs"/>.
+            </summary>
+            <param name="e">A <see cref="T:System.Drawing.Design.PaintValueEventArgs"/> that indicates what to paint and where to paint it. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.MonthCalanderAppearanceEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)">
+            <summary>
+            Gets the editor style used by the <see cref="M:System.Drawing.Design.UITypeEditor.EditValue(System.IServiceProvider,System.Object)"/> method.
+            </summary>
+            <returns>
+            A <see cref="T:System.Drawing.Design.UITypeEditorEditStyle"/> value that indicates the style of editor used by the <see cref="M:System.Drawing.Design.UITypeEditor.EditValue(System.IServiceProvider,System.Object)"/> method. If the <see cref="T:System.Drawing.Design.UITypeEditor"/> does not support this method, then <see cref="M:System.Drawing.Design.UITypeEditor.GetEditStyle"/> will return <see cref="F:System.Drawing.Design.UITypeEditorEditStyle.None"/>.
+            </returns>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that can be used to gain additional context information. </param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.MonthCalanderAppearanceEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)">
+            <summary>
+            Edits the specified object's value using the editor style indicated by the <see cref="M:System.Drawing.Design.UITypeEditor.GetEditStyle"/> method.
+            </summary>
+            <returns>
+            The new value of the object. If the value of the object has not changed, this should return the same object it was passed.
+            </returns>
+            <param name="context">An <see cref="T:System.ComponentModel.ITypeDescriptorContext"/> that can be used to gain additional context information. </param><param name="provider">An <see cref="T:System.IServiceProvider"/> that this editor can use to obtain services. </param><param name="value">The object to edit. </param>
+        </member>
+        <member name="F:CalanderControl.Design.Editors.MonthCalanderAppearanceEditor.AppearanceEditor.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.MonthCalanderAppearanceEditor.AppearanceEditor.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:CalanderControl.Design.Editors.MonthCalanderAppearanceEditor.AppearanceEditor.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+    </members>
+</doc>

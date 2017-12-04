@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{8A987D5C-C78B-4973-A942-C07B5FC15872}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonthCalendar", "WindowsFormsApplication1\Calendar2\MonthCalendar\MonthCalendar.csproj", "{09CD4358-741A-45DC-8E0A-04E38A0DA440}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A987D5C-C78B-4973-A942-C07B5FC15872}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A987D5C-C78B-4973-A942-C07B5FC15872}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A987D5C-C78B-4973-A942-C07B5FC15872}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A987D5C-C78B-4973-A942-C07B5FC15872}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09CD4358-741A-45DC-8E0A-04E38A0DA440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09CD4358-741A-45DC-8E0A-04E38A0DA440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09CD4358-741A-45DC-8E0A-04E38A0DA440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09CD4358-741A-45DC-8E0A-04E38A0DA440}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
